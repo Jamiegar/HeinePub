@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.Material Name="PIllar"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_BaseColor.Pillar_DefaultMaterial_BaseColor"'
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=39B8ED9A40847F78039575AC0CD89F97
+      Material=Material'"PIllar"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_Normal.Pillar_DefaultMaterial_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=B25F5D4F41FE00C9A9FE16B52CE257A4
+      Material=Material'"PIllar"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_OcclusionRoughnessMetallic.Pillar_DefaultMaterial_OcclusionRoughnessMetallic"'
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=D45E280047A0F3524063F1B851607FF9
+      Material=Material'"PIllar"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=EFEFE6A44A6A762754AE5AB4BC386B85
+   ReferencedTextureGuids(0)=E058760F498BE2ED4A44F883CB7BE8DD
+   ReferencedTextureGuids(1)=AB2B0D88412CB9C30C5CA68FB0FCD2CC
+   ReferencedTextureGuids(2)=C9C1B25043B5F968A6C914B90568EE72
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Pillar_DefaultMaterial_BaseColor",TextureReference="/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_BaseColor.Pillar_DefaultMaterial_BaseColor")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Pillar_DefaultMaterial_Normal",TextureReference="/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_Normal.Pillar_DefaultMaterial_Normal")
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Pillar_DefaultMaterial_OcclusionRoughnessMetallic",TextureReference="/Game/Materials_and_Textures/Texture/Pillar_DefaultMaterial_OcclusionRoughnessMetallic.Pillar_DefaultMaterial_OcclusionRoughnessMetallic")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=25CE25C0419DA86D9FC9C8ABAEC0AADC
+End Object

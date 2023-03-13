@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.Material Name="PubDoorHandlesMat"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/PubDoor_Metal_BaseColor.PubDoor_Metal_BaseColor"'
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=51850DF14E9C905BED1A5D925A8F9514
+      Material=Material'"PubDoorHandlesMat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/PubDoor_Metal_Normal.PubDoor_Metal_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=65B22F3C4DDB114E9AB992858766152D
+      Material=Material'"PubDoorHandlesMat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Materials_and_Textures/Texture/PubDoor_Metal_OcclusionRoughnessMetallic.PubDoor_Metal_OcclusionRoughnessMetallic"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=E9CF7E8643DF8961FDA7779459DFF4D1
+      Material=Material'"PubDoorHandlesMat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=6F5822044A8135C7123501A948AC2023
+   ReferencedTextureGuids(0)=3EA0268946E7A82F7BCF2CB09006DB7B
+   ReferencedTextureGuids(1)=AEFD6B00455AC5A073CDFDBE9CD54EED
+   ReferencedTextureGuids(2)=B09136E6480F78021F5C7B911EAF3F0C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PubDoor_Metal_BaseColor",TextureReference="/Game/Materials_and_Textures/Texture/PubDoor_Metal_BaseColor.PubDoor_Metal_BaseColor")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PubDoor_Metal_Normal",TextureReference="/Game/Materials_and_Textures/Texture/PubDoor_Metal_Normal.PubDoor_Metal_Normal")
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PubDoor_Metal_OcclusionRoughnessMetallic",TextureReference="/Game/Materials_and_Textures/Texture/PubDoor_Metal_OcclusionRoughnessMetallic.PubDoor_Metal_OcclusionRoughnessMetallic")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=AD789C8A44BF535A578926B7B1E1F5F6
+End Object
